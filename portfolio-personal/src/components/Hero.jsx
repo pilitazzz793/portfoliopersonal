@@ -1,5 +1,5 @@
 import { motion, useInView, useAnimation, useScroll, useTransform } from "framer-motion";
-import { fadeUp } from "../animations";
+import { fadeUpItem } from "../animations";
 import React, {useRef, useEffect} from "react";
 
 

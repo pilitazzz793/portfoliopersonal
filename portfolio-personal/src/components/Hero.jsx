@@ -24,7 +24,7 @@ function Hero (){
       <motion.h1 variants={item}>Hola, soy Pilar Nadal</motion.h1>
       <motion.p variants={item}>Desarrollo Frontend · Diseño  UX/UI·</motion.p>
      
-      <motion.img src="/profile.png" alt="" className="hero-image" animate={{ y: [0, -10, 0] }} transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }} />
+      <motion.img src="public/profile.jpg" alt="" className="hero-image" animate={{ y: [0, -10, 0] }} transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }} />
     </motion.section>
     );
 }

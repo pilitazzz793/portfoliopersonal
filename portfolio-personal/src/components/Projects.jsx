@@ -3,16 +3,9 @@ import {motion} from "framer-motion";
 
 
 const projects =[
+    
     {
-        id: 1,
-        title: "E-commerce Gamer",
-        description: "Tienda online con carrito, login y panel de administracion.",
-        tech: ["HTML", "CSS", "JAVASCRIPT", "Node.JS", "MYSQL"],
-        image: "https://imagenes.compragamer.com/bannerPrincipal/DC_20251218142627_KQgYnNH0.jpg",
-        link: "https://github.com/PilarNadal/E-commerce-Gamer"
-    },
-    {
-        id:2,
+        id:1,
         title:"Simulador de lamparas",
         description: "Simulador de encendido y apagado de lamparas con JS.",
         tech: ["HTML", "CSS", "JAVASCRIPT", "NODE.JS", "MYSQL"],

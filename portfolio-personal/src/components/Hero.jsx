@@ -22,7 +22,7 @@ function Hero (){
     return (
       <motion.section ref={ref} className="hero1" style={{ y: parallaxY }} variants={container} initial="hidden" animate={controls}>
       <motion.h1 variants={item}>Hola, soy Pilar Nadal</motion.h1>
-      <motion.p variants={item}>Desarrollo Frontend · Diseño  UX/UI·</motion.p>
+      <motion.p variants={item}>Desarrollo Frontend y Backend</motion.p>
      
       <motion.img src="public/profile.jpg" alt="" className="hero-image" animate={{ y: [0, -10, 0] }} transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }} />
     </motion.section>

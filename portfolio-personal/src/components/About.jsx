@@ -17,7 +17,7 @@ function About() {
           whileHover={{ scale: 1.05, rotate: 2 }}
         >
           <img
-            src="/assets/react.svg"
+            src="/assets/Programadora joven con laptop.png"
             alt="Avatar"
             className="about__avatar"
           />
@@ -38,7 +38,7 @@ function About() {
 
 <motion.div className="skills" variants={container}>
     
-    {["HTML", "CSS", "JAVASCRIPT", "REACT", "NODE.JS", "EXPRESS", "MONGODB"].map((skill) => (
+    {["HTML", "CSS", "JAVASCRIPT", "REACT", "NODE.JS", "EXPRESS", "MONGODB", "MYSQL", "GIT", "GITHUB"].map((skill) => (
         <motion.span
         key={skill}
         className="chip"

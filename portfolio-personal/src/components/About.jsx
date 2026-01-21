@@ -17,7 +17,7 @@ function About() {
           whileHover={{ scale: 1.05, rotate: 2 }}
         >
           <img
-            src="/assets/Programadora joven con laptop.png"
+            src="/public/Programadora joven con laptop.png"
             alt="Avatar"
             className="about__avatar"
           />
